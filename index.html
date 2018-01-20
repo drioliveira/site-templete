@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Van Gogh</title>
+
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" href="css/mi-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">	
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/menuresponsive.js"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+
+	<script type="text/javascript"> 
+		$(window).on('load', function() {
+		    $('#slider').nivoSlider(); 
+		}); 
+	</script>
+</head>
+<body>
+	<div class="slider-wrapper theme-mi-slider">
+		<div id="slider" class="nivoSlider">     
+		    <img src="img/1.jpg" alt="" title="#htmlcaption1" />    
+		    <img src="img/2.jpg" alt="" title="#htmlcaption2" />    
+		    <img src="img/3.jpg" alt="" title="#htmlcaption3" />     
+		</div> 
+		<div id="htmlcaption1" class="nivo-html-caption">     
+		    <h1>Vincent van Gogh</h1>
+		  <!--  <p></p>  -->
+		</div>
+		<div id="htmlcaption2" class="nivo-html-caption">     
+		    <h1>A Noite Estrelada</h1>
+		</div>
+		<div id="htmlcaption3" class="nivo-html-caption">     
+		    <h1>Doze girassóis numa jarra</h1>
+		</div>
+	</div>
+
+	<!--Barra de pesquisa-->
+	<header class="container">		
+			<nav class="navbar">
+			  <div class="container-fluid">			    
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu"></button>
+			      <a class="navbar-brand" href="index.html">Home</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="menu">
+			      <ul class="navbar-nav">
+			        <li class="active"><a href="historia.html">História</a></li>
+			        <li><a href="filme.html">Filme</a></li>
+			         <li><a href="contato.html">Contato</a></li>
+			        </li>
+			      </ul>			      
+			    </div>
+			  </div>
+			</nav>		
+	</header>
+
+	<!--Album de imagens-->
+    
+       <div class="album text-muted">
+        <div class="container">
+        <div class="row">
+
+            <div class="card">
+              <img class="img" src="img/1a.jpg" >
+              <p class="card-text">Amendoeira em Flor<br>
+              	Parte da série: Almond Blossoms ( Museu Van Gogh )<br></p>
+            </div>
+
+            <div class="card">
+              <img class="img" src="img/2a.jpg" >
+              <p class="card-text">Auto-retratos (1886-1890) - Van Gogh pintou trinta e cinco entre 1886 e 1889.</p>
+            </div>
+
+            <div class="card">
+              <img class="img" src="img/3a.jpg" >
+              <p class="card-text">Still Life: Vase with Pink Roses<br>
+              	Localização: Galeria Nacional de Arte<br></p>
+            </div>
+
+             <div class="card">
+              <img class="img" src="img/4a.jpg" >
+              <p class="card-text">Casas em Auvers<br>
+              	Criação: junho de 1890–junho de 1890<br></p>
+            </div>
+
+             <div class="card">
+              <img class="img" src="img/5a.jpg" >
+              <p class="card-text">Pôr do Sol em Montmajour<br>
+              	Criação: 1888<br>
+              	Durante anos, o quadro permaneceu no sótão de um colecionador norueguês.
+              	
+              </p>
+            </div>
+            </div>
+
+              <div class="card">
+              <img class="img" src="img/6a.jpg" >
+              <p class="card-text">A Igreja de Auvers<br>
+              	Localização: Museu de Orsay<br></p>
+            </div>
+
+            
+         </div>
+         </div>
+         <!---->
+		      <footer class="footer">
+		        <p  > © 2017 by Adriana Oliveira</p>
+		      </footer>
+        </div>
+
+</body>
+</html>
